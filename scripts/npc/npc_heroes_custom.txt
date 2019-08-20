@@ -1,0 +1,109 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+
+  "npc_dota_hero_sniper_hide&seek"
+  {
+  	"AbilityLayout" "6"                    // Ensure the hero has no ability
+  	"override_hero" "npc_dota_hero_sniper"
+
+    "SoundSet"          "0" 
+    	"Ability1"					"hide&seek_ability_1"										// Ability 1.
+		"Ability2"					"hide&seek_ability_1"										// Ability 2.
+		"Ability3"					"hide&seek_ability_1"										// Ability 3.
+		"Ability4"					"hide&seek_ability_1"										// Ability 4.
+		"Ability5"					"hide&seek_ability_1"
+		"Ability6"					"hide&seek_ability_1"										// Ability 6 - Extra.
+		"Ability7"					""										// Ability 7 - Extra.
+		"Ability8"					""										// Ability 8 - Extra.
+		"Ability9"					""
+
+
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"     "100"                   // Damage range min.
+    "AttackDamageMax"     "500"                   // Damage range max.
+
+    //"AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "1"                   // Base strength
+    "AttributeStrengthGain"   "0"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "0"                   // Base intelligence
+    "AttributeIntelligenceGain" "0"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "80"                   // Base agility
+    "AttributeAgilityGain"    "0"                   // Agility bonus per level.
+
+
+       "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "500"                 // Speed.
+    "MovementTurnRate"      "3.0"                 // Turning rate.
+
+    "StatusHealth"        "1000"                 // Base health.
+    "StatusHealthRegen"     "0.0"                 // Health regeneration rate.
+    "StatusMana"        "400"                   // Base mana.
+    "StatusManaRegen"     "100.0"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "700"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "500"                  // Range of vision at night time.
+
+
+
+
+
+  }
+
+  "npc_dota_hero_riki_hide&seek"
+  {
+  	"AbilityLayout"         "6"
+  	"override_hero"        "npc_dota_hero_riki"
+  	    "SoundSet"          "0" 
+    	"Ability1"					"hide&seek_ability_1"										// Ability 1.
+		"Ability2"					"hide&seek_ability_1"										// Ability 2.
+		"Ability3"					"riki_permanent_invisibility"										// Ability 3.
+		"Ability4"					"hide&seek_ability_1"										// Ability 4.
+		"Ability5"					"hide&seek_ability_1"
+		"Ability6"					""										// Ability 6 - Extra.
+		"Ability7"					""										// Ability 7 - Extra.
+		"Ability8"					""										// Ability 8 - Extra.
+		"Ability9"					""
+
+
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"
+
+    //"AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "1"                   // Base strength
+    "AttributeStrengthGain"   "0"                   // Strength bonus per level.
+    "AttributeBaseIntelligence" "0"                   // Base intelligence
+    "AttributeIntelligenceGain" "0"                   // Intelligence bonus per level.
+    "AttributeBaseAgility"    "80"                   // Base agility
+    "AttributeAgilityGain"    "0"                   // Agility bonus per level.
+
+
+       "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "600"                 // Speed.
+    "MovementTurnRate"      "3.0"                 // Turning rate.
+
+    "StatusHealth"        "500"                 // Base health.
+    "StatusHealthRegen"     "0.0"                 // Health regeneration rate.
+    "StatusMana"        "400"                   // Base mana.
+    "StatusManaRegen"     "100.0"                 // Mana regeneration rate.
+
+    "VisionDaytimeRange"    "1700"                  // Range of vision at night time.
+    "VisionNighttimeRange"    "1500"                  // Range of vision at night time.
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+}
